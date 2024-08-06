@@ -1,7 +1,7 @@
-'use client';
-import React, { useEffect, useLayoutEffect } from 'react';
+"use client";
+import React, { useEffect, useLayoutEffect } from "react";
 
-import loadBackgroudImages from '../../common/loadBackgroudImages';
+import loadBackgroudImages from "../../common/loadBackgroudImages";
 function Header() {
   useEffect(() => {
     loadBackgroudImages();
@@ -26,12 +26,12 @@ function Header() {
                 <div>
                   <div className="text ml-30">
                     <p>
-                      We back the founders of new forms of network, digital
-                      organisations that harness the{' '}
+                      We create cutting-edge web solutions, using{" "}
                       <span className="text-light fw-600">
-                        talents of individuals
-                      </span>{' '}
-                      for the benefit of the collective.
+                        React, Vite, NextJS, NodeJS, and ExpressJS
+                      </span>{" "}
+                      to harness the talents of individuals for the benefit of
+                      the collective.
                     </p>
                   </div>
                 </div>
@@ -47,7 +47,7 @@ function Header() {
           </div>
           <div className="col-lg-6 d-flex justify-content-end order-md-1">
             <div className="info">
-              <h2 className="mb-10">12k +</h2>
+              <h2 className="mb-10">2k +</h2>
               <h6>
                 Projects completed <br />
                 <span className="main-color">successfully</span>
